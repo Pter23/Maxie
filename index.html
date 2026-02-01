@@ -4,9 +4,34 @@
 <meta charset="UTF-8">
 <title>Max Verstappen — Profile</title>
 <link rel="stylesheet" href="style.css">
+
+<style>
+/* พื้นหลังรูป + เบลอ */
+body {
+    background: url("b17a1e100c484f1ef1dc44c91c99c430.jpg") no-repeat center center fixed;
+    background-size: cover;
+    font-family: 'Cinzel', serif;
+    color: #f4e2c2;
+}
+
+/* ชั้นเบลอทับ */
+.blur-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    backdrop-filter: blur(8px);
+    background: rgba(0, 0, 0, 0.45);
+    z-index: -1;
+}
+</style>
 </head>
 
-<body style="background: linear-gradient(to bottom, #1a0f00, #000000); font-family: 'Cinzel', serif; color: #f4e2c2;">
+<body>
+
+<!-- ชั้นเบลอพื้นหลัง -->
+<div class="blur-overlay"></div>
 
     <!-- HEADER -->
     <header style="text-align:center; padding: 60px 20px;">
