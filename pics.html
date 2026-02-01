@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Max Verstappen — Gallery</title>
+
+<style>
+    body {
+        margin: 0;
+        font-family: "Cinzel", serif;
+        background: #0f0f0f;
+        color: #f4e2c2;
+    }
+
+    h1 {
+        text-align: center;
+        margin-top: 40px;
+        font-size: 2.6rem;
+        letter-spacing: 3px;
+        color: #ff8f1f;
+        text-shadow: 0 0 10px #ff6600;
+    }
+
+    h2 {
+        margin: 50px 0 15px 0;
+        text-align: left;
+        font-size: 1.7rem;
+        color: #ff7b00;
+        border-left: 4px solid #ff7b00;
+        padding-left: 12px;
+    }
+
+    .gallery-section {
+        width: 85%;
+        margin: auto;
+    }
+
+    .gallery-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+        gap: 15px;
+        margin-bottom: 50px;
+    }
+
+    .photo {
+        width: 100%;
+        height: 270px;
+        background-size: cover;
+        background-position: center;
+        border-radius: 12px;
+        border: 1px solid #ff7b00;
+        box-shadow: 0 0 15px rgba(255, 123, 0, 0.4);
+    }
+
+</style>
+</head>
+
+<body>
+
+<h1>GALLERY</h1>
+
+<div class="gallery-section">
+
+    <!-- ======================
+         CATEGORY 1: RACING
+    ====================== -->
+    <h2>⟨ RACING • TRACK LIFE ⟩</h2>
+    <div class="gallery-grid">
+
+        <!-- ตัวอย่าง: ใส่รูปตอนแข่ง -->
+        <div class="photo" style="background-image: url('77b796dfd4f51385809f54320f043a1b.jpg');"></div>
+        <div class="photo" style="background-image: url('dcab66de08e2900864acdfe463e8a9e7.jpg');"></div>
+        <div class="photo" style="background-image: url('28204b5e626d7f0ae46ff001b1d320f5.jpg');"></div>
+        <div class="photo" style="background-image: url('c19876ed81a9b3b9d65db4a53ccdbc35.jpg');"></div>
+
+    </div>
+
+
+    <!-- ======================
+         CATEGORY 2: DAILY LIFE
+    ====================== -->
+    <h2>⟨ DAILY LIFE • OFF TRACK ⟩</h2>
+    <div class="gallery-grid">
+
+        <!-- ตัวอย่าง: ใส่รูปวันสบาย ๆ -->
+        <div class="photo" style="background-image: url('daily1.jpg');"></div>
+        <div class="photo" style="background-image: url('daily2.jpg');"></div>
+        <div class="photo" style="background-image: url('simracing1.jpg');"></div>
+        <div class="photo" style="background-image: url('travel1.jpg');"></div>
+
+    </div>
+
+
+    <!-- ======================
+         CATEGORY 3: THE PERSON
+    ====================== -->
+    <h2>⟨ SOMEONE SPECIAL? • PERHAPS. ⟩</h2>
+    <div class="gallery-grid">
+
+        <!-- รูปที่ต้องการสื่อ “ความสำคัญแบบไม่พูดตรงๆ” -->
+        <div class="photo" style="background-image: url('special1.jpg');"></div>
+        <div class="photo" style="background-image: url('special2.jpg');"></div>
+        <div class="photo" style="background-image: url('special3.jpg');"></div>
+
+    </div>
+
+</div>
+
+</body>
+</html>
+
